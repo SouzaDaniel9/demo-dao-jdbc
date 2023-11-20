@@ -40,6 +40,10 @@ public class Program {
 //		seller.setName("Martha Waine");
 //		sellerDao.update(seller);
 //		System.out.println("Update Completed");
+		
+//		System.out.println("\n***** TESTE 06: Deletar usando o id *****");
+//		sellerDao.deleteById(11);
+//		System.out.println("Delete completed");
 	}
 
 }

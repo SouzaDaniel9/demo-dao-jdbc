@@ -24,6 +24,12 @@ public class Program {
 			System.out.println(sel);
 		}
 
+		System.out.println("\n***** TESTE 03: Exibir todos vendedores *****");
+		list = sellerDao.findAll();
+		for (Seller sel : list) {
+			System.out.println(sel);
+		}
+
 	}
 
 }
